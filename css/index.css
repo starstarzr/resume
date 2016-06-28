@@ -373,136 +373,92 @@ html, body {
     display: block;
     position: absolute;
     background: url("../img/page3-title.png");
-    top: .2rem;
+    top: .09rem;
     left: 1.6rem;
     width: 173px;
     height: 41px;
 }
 /*第三张右半部分样式*/
-#page3 .right1 {
+ .right1,.right2,.right3,.right4,.right5{
     display: block;
     position: absolute;
     background: url("../img/w3.png");
     background-size: cover;
-    top: 1.6rem;
+    overflow: hidden;
+    border-radius: .1rem;
+}
+.right1-1,.right2-1,.right3-1,.right4-1,.right5-1{
+    display: block;
+    position: absolute;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: .1rem;
+    opacity: 0;
+}
+#page3 .right1{
+    top: 1.4rem;
     left: 3rem;
     width: 2.6rem;
     height: 0.5rem;
-    overflow: hidden;
-    border-radius: .2rem;
 }
 #page3 .right1-1 {
-    display: block;
-    position: absolute;
     background: url("../img/orange.png");
-    background-size: cover;
-    top: 1.6rem;
+    top: 1.4rem;
     left: 3rem;
     width: 2.5rem;
     height: .5rem;
-    overflow: hidden;
-    border-radius: .2rem;
-    opacity: 0;
 }
 #page3 .right2 {
-    display: block;
-    position: absolute;
-    background: url("../img/w3.png");
-    background-size: cover;
     top: 3.5rem;
     left: 3rem;
     width: 2.6rem;
     height: 0.5rem;
-    overflow: hidden;
-    border-radius: .2rem;
 }
 #page3 .right2-1 {
-    display: block;
-    position: absolute;
     background: url("../img/blue.png");
-    background-size: cover;
     top: 3.5rem;
     left: 3rem;
     width:2.5rem;
     height: .5rem;
-    overflow: hidden;
-    border-radius: .2rem;
-    opacity: 0;
 }
 #page3 .right3 {
-    display: block;
-    position: absolute;
-    background: url("../img/w3.png");
-    background-size: cover;
     top: 5.5rem;
     left: 3rem;
     width: 2.6rem;
     height: 0.5rem;
-    overflow: hidden;
-    border-radius: .2rem;
 }
 #page3 .right3-1 {
-    display: block;
-    position: absolute;
     background: url("../img/lightbluepng.png");
-    background-size: cover;
     top: 5.5rem;
     left: 3rem;
     width:2.2rem;
     height: .5rem;
-    overflow: hidden;
-    border-radius: .2rem;
-    opacity: 0;
 }
 #page3 .right4 {
-    display: block;
-    position: absolute;
-    background: url("../img/w3.png");
-    background-size: cover;
     top: 7.3rem;
     left: 3rem;
     width: 2.6rem;
     height: 0.5rem;
-    overflow: hidden;
-    border-radius: .2rem;
 }
 #page3 .right4-1 {
-    display: block;
-    position: absolute;
     background: url("../img/grey.png");
-    background-size: cover;
     top: 7.3rem;
     left: 3rem;
     width:2rem;
     height: .5rem;
-    overflow: hidden;
-    border-radius: .2rem;
-    opacity: 0;
 }
 #page3 .right5 {
-    display: block;
-    position: absolute;
-    background: url("../img/w3.png");
-    background-size: cover;
     top: 9.1rem;
     left: 3rem;
     width: 2.6rem;
     height: 0.5rem;
-    overflow: hidden;
-    border-radius: .2rem;
 }
 #page3 .right5-1 {
-    display: block;
-    position: absolute;
     background: url("../img/puper.png");
-    background-size: cover;
     top: 9.1rem;
     left: 3rem;
     width:1.8rem;
     height: .5rem;
-    overflow: hidden;
-    border-radius: .2rem;
-    opacity: 0;
 }
 /*第三张左半部分样式*/
 #page3 .left1{
@@ -510,7 +466,7 @@ html, body {
     position: absolute;
     background: url("../img/html_5.png");
     background-size: cover;
-    top: 1.2rem;
+    top: 0.9rem;
     left: .9rem;
     width: .9rem;
     height:.9rem;
@@ -520,7 +476,7 @@ html, body {
 #page3 .left1-1{
     display: block;
     position: absolute;
-    top: 2.1rem;
+    top: 1.9rem;
     left: .6rem;
     opacity: 0;
     background: url("../img/h2.png");
@@ -534,7 +490,7 @@ html, body {
     position: absolute;
     background: url("../img/css31.png");
     background-size: cover;
-    top: 2.8rem;
+    top: 2.5rem;
     left: .8rem;
     width: 1.2rem;
     height:1.2rem;
@@ -548,7 +504,7 @@ html, body {
     height: 26px;
     display: block;
     position: absolute;
-    top: 4.1rem;
+    top: 3.8rem;
     left: .7rem;
     opacity: 0;
 }
@@ -557,7 +513,7 @@ html, body {
     position: absolute;
     background: url("../img/jquery.png");
     background-size: cover;
-    top: 5rem;
+    top: 4.7rem;
     left: .9rem;
     width: 1rem;
     height:1rem;
@@ -571,7 +527,7 @@ html, body {
     height: 35px;
     display: block;
     position: absolute;
-    top: 6rem;
+    top: 5.7rem;
     left: .7rem;
     opacity: 0;
 }
@@ -580,7 +536,7 @@ html, body {
     position: absolute;
     background: url("../img/nodejs01.png");
     background-size: contain;
-    top: 6.9rem;
+    top: 6.6rem;
     left: .8rem;
     width: 1rem;
     height:1rem;
@@ -594,7 +550,7 @@ html, body {
     height: 34px;
     display: block;
     position: absolute;
-    top: 8rem;
+    top: 7.7rem;
     left: .6rem;
     opacity: 0;
 }
@@ -603,7 +559,7 @@ html, body {
     position: absolute;
     background: url("../img/angular.png");
     background-size: cover;
-    top: 8.7rem;
+    top: 8.4rem;
     left: .8rem;
     width: 1rem;
     height:1rem;
@@ -617,7 +573,7 @@ html, body {
     height: 34px;
     display: block;
     position: absolute;
-    top: 9.9rem;
+    top: 9.6rem;
     left: .3rem;
     opacity: 0;
 }
@@ -641,32 +597,32 @@ html, body {
     animation: bounceInRight 1s 1.8s both;
 }
 #page3 .right2-1 {
-    -webkit-animation: my2 1.5s 2.6s both;
-    animation: my2 1.5s 2.6s both;
+    -webkit-animation: my1 1.5s 2.6s both;
+    animation: my1 1.5s 2.6s both;
 }
 #page3 .right3 {
     -webkit-animation: bounceInRight 1s 1.8s both;
     animation: bounceInRight 1s 1.8s both;
 }
 #page3 .right3-1 {
-    -webkit-animation: my3 1.5s 2.7s both;
-    animation: my3 1.5s 2.7s both;
+    -webkit-animation: my1 1.5s 2.7s both;
+    animation: my1 1.5s 2.7s both;
 }
 #page3 .right4 {
     -webkit-animation: bounceInRight 1s 1.8s both;
     animation: bounceInRight 1s 1.8s both;
 }
 #page3 .right4-1 {
-    -webkit-animation: my4 1.5s 3s both;
-    animation: my4 1.5s 3s both;
+    -webkit-animation: my1 1.5s 3s both;
+    animation: my1 1.5s 3s both;
 }
 #page3 .right5 {
     -webkit-animation: bounceInRight 1s 1.8s both;
     animation: bounceInRight 1s 1.8s both;
 }
 #page3 .right5-1 {
-    -webkit-animation: my5 1.5s 3.2s both;
-    animation: my5 1.5s 3.2s both;
+    -webkit-animation: my1 1.5s 3.2s both;
+    animation: my1 1.5s 3.2s both;
 }
 /*第三张左半部分动画*/
 #page3 .left1 {
@@ -722,7 +678,7 @@ html, body {
 #page4 span:nth-child(2){
     display: block;
     position: absolute;
-    top: .5rem;
+    top: .3rem;
     right: 2rem;
     background: url("../img/p4-1.png")100% 100%;
     height: 263px;
@@ -733,7 +689,7 @@ html, body {
 #page4 span:nth-child(3){
      display: block;
      position: absolute;
-     top: 5.8rem;
+     top: 5.6rem;
      right: 2rem;
      background: url("../img/p4-2.png")100% 100%;
      height: 263px;
@@ -742,7 +698,7 @@ html, body {
 #page4 span:nth-child(4){
     display: block;
     position: absolute;
-    top: .5rem;
+    top: .3rem;
     right: 4rem;
     background: url("../img/p4-3.png")100% 100%;
     height: 263px;
@@ -751,7 +707,7 @@ html, body {
 #page4 span:nth-child(5){
     display: block;
     position: absolute;
-    top: 5.8rem;
+    top: 5.6rem;
     right: 4rem;
     background: url("../img/p4-4.png")100% 100%;
     height: 263px;
@@ -764,20 +720,20 @@ html, body {
     animation: rollOut 3s .7s both;
 }
 #page4 span:nth-child(2){
-    -webkit-animation: rotateIn 5s 3s both;
-    animation: rotateIn 5s 3s both;
+    -webkit-animation: rotateIn 2s 3s both;
+    animation: rotateIn 2s 3s both;
 }
 #page4 span:nth-child(3){
-     -webkit-animation: rotateIn 5s 6s both;
-     animation: rotateIn 5s 6s both;
+     -webkit-animation: rotateIn 2s 4s both;
+     animation: rotateIn 2s 4s both;
  }
 #page4 span:nth-child(4){
-    -webkit-animation: rotateInDownLeft 5s 9s both;
-    animation: rotateInDownLeft 5s 9s both;
+    -webkit-animation: rotateInDownLeft 2s 5s both;
+    animation: rotateInDownLeft 2s 5s both;
 }
 #page4 span:nth-child(5){
-    -webkit-animation: rotateInDownLeft 3s 12s both;
-    animation: rotateInDownLeft 3s 12s both;
+    -webkit-animation: rotateInDownLeft 2s 6s both;
+    animation: rotateInDownLeft 2s 6s both;
 }
 /*最后一页样式*/
 
@@ -1007,99 +963,6 @@ html, body {
     }
 }
 
-@-webkit-keyframes zoomInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    }
-
-    60% {
-        opacity: 1;
-        -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    }
-}
-
-@keyframes zoomInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    }
-
-    60% {
-        opacity: 1;
-        -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    }
-}
-
-@-webkit-keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@-webkit-keyframes fadeInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-
 
 @-webkit-keyframes flip {
     from {
@@ -1221,7 +1084,6 @@ html, body {
         transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
 }
-
 @keyframes rollOut {
     0% {
         opacity: 1;
@@ -1235,12 +1097,6 @@ html, body {
         transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
 }
-
-.rollOut {
-    -webkit-animation-name: rollOut;
-    animation-name: rollOut;
-}
-
 @-webkit-keyframes my1 {
 
     0% {
@@ -1275,139 +1131,181 @@ html, body {
         transform: translateX(-0.2rem);
     }
 }
-@-webkit-keyframes my2 {
+@-webkit-keyframes bounceInDown {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
 
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
     }
 
-    100% {
+    60% {
         opacity: 1;
-        -webkit-transform: translateX(-0.3rem);
-        transform: translateX(-0.3rem);
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
     }
 }
-@keyframes my2 {
+@keyframes bounceInDown {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
 
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
     }
 
-    100% {
+    60% {
         opacity: 1;
-        -webkit-transform: translateX(-0.3rem);
-        transform: translateX(-0.3rem);
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
     }
 }
-@-webkit-keyframes my3 {
+@-webkit-keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
 
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
     }
 
-    100% {
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
         opacity: 1;
-        -webkit-transform: translateX(-0.36rem);
-        transform: translateX(-0.36rem);
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
-@keyframes my3 {
+@keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
 
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
     }
 
-    100% {
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
         opacity: 1;
-        -webkit-transform: translateX(-0.36rem);
-        transform: translateX(-0.36rem);
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
-@-webkit-keyframes my4 {
-
-    0% {
+@-webkit-keyframes rotateInDownLeft {
+    from {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
     }
 
-    100% {
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: none;
+        transform: none;
         opacity: 1;
-        -webkit-transform: translateX(-0.39rem);
-        transform: translateX(-0.39rem);
     }
 }
-@keyframes my4 {
-
-    0% {
+@keyframes rotateInDownLeft {
+    from {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
         opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
     }
 
-    100% {
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: none;
+        transform: none;
         opacity: 1;
-        -webkit-transform: translateX(-0.39rem);
-        transform: translateX(-0.39rem);
-    }
-}
-@-webkit-keyframes my5 {
-
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(-0.4rem);
-        transform: translateX(-0.4rem);
-    }
-}
-@keyframes my5 {
-
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-0.5rem);
-        transform: translateX(-0.5rem);
-    }
-    50%{
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(-0.4rem);
-        transform: translateX(-0.4rem);
     }
 }
